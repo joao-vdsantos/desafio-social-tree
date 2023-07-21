@@ -10,7 +10,8 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: #2e2e2e;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(imagens/starry-night-g466ef7649_1920.jpg);
+    background-size: cover; 
     flex-direction: column;
 }
 
@@ -21,15 +22,14 @@ body {
     max-width: 100%;
     max-height: 100%;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid #fff;
     border-radius: 50%;
-
 }
 
 .media p {
     margin-top: 10px;
     font-family: 'Poppins';
-    color: white;
+    color: #fff;
     font-size: 16px;
     font-weight: 300;
 }
@@ -38,21 +38,35 @@ body {
     display: flex;
     justify-content: center;
     padding: 12px 138px 13px 141px;
-    border: 1px solid white;
+    border: 1px solid #fff;
     margin-top: 20px;
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-size: 18px;
 }
 
 .links a:hover {
-    color: #2e2e2e;
-    background-color: white;
+    color: #000000;
+    background-color: #fff;
+    transition: 90ms linear;
 }
 
-footer {
-    margin-top: 50px;
+.footer{
+    margin: 50px auto;
+
+    display: flex;
 }
 
-footer svg {
-    margin-right: 25px ;
+footer a {
+    text-decoration: none;
+    background-color: rebeccapurple;
+    margin: 0 15px;
+    padding: 5px;
+    display: flex;
+    transition-delay: 2.;
+}
+
+footer a:hover {
+    transform: scale(1.5);
+    transition: 100ms linear;
 }

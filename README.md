@@ -1,1 +1,1 @@
-Esse projeto foi inspirado em um desafio da Rocketseat
+Esse projeto foi inspirado em um desafio da Rocketseat, fiz algumas alterações visuais para deixar do meu jeito.
